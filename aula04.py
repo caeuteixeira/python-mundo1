@@ -9,7 +9,7 @@ ano = input ('Em que ano você nasceu?')
 print('Você nasceu em', dia, '/', mes, '/', ano,'correto?')
 
 #desafio 3
-numero1 = input ('Primeiro número')
-numero2 = input ('Segundo número')
-soma = int(numero1) + int(numero2)
-print('A soma desses números é', soma)
+numero1 = int(input ('Primeiro número '))
+numero2 = int(input ('Segundo número '))
+soma = numero1 + numero2
+print('A soma entre {} e {} vale {}'.format(numero1, numero2, soma))
